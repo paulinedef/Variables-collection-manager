@@ -7,6 +7,7 @@ Streamline your design workflow in Figma with advanced variable management, loca
 
 ## Visual Overview
 ![Plugin Preview](https://yourwebsite.com/path-to-your-image.jpg)
+(https://github.com/paulinedef/Variables-collection-manager/edit/main/images/file variable collection manager.png)
 *An overview of Figma Variable Manager in action.*
 
 ---
