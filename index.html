@@ -8,7 +8,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700;800&display=swap" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
-			body { font-family: 'Space Grotesk', sans-serif; margin: 0; padding: 0; }
+			body { font-family: 'Space Grotesk', sans-serif; margin: 0; padding: 0; color: #1E1E1E; }
 			h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem; }
 			h2 { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
 			h3 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; }
@@ -16,6 +16,10 @@
 			.main.special { padding: 1.5rem 1rem; }
 			ul { padding-left: 1.5rem; }
 			footer { padding: 1rem 0; }
+			.legal-links { font-size: 0.9rem; margin: 1rem 0; }
+			.legal-links a { text-decoration: none; color: #1E1E1E; }
+			.features-section { border-top: 2px solid #1E1E1E; margin: 1.5rem 0; padding-top: 1rem; }
+			.features-section p { margin: 0.5rem 0; }
 		</style>
 	</head>
 	<body class="is-preload">
@@ -65,33 +69,22 @@
 								<header class="major">
 									<h2>Key Features</h2>
 								</header>
-								<ul class="features">
-									<li>
-										<span class="icon solid major style1 fa-tools"></span>
-										<h3>Variable Management</h3>
-										<p>Create and manage your variable collections (colors, spacing, text styles, etc.) for a structured workflow.</p>
-									</li>
-									<li>
-										<span class="icon major style3 fa-paint-brush"></span>
-										<h3>Local Styles</h3>
-										<p>Convert your variables into Figma local styles for consistent design across your projects.</p>
-									</li>
-									<li>
-										<span class="icon major style5 fa-download"></span>
-										<h3>Export & Import</h3>
-										<p>Export variables to JSON or import existing configurations effortlessly.</p>
-									</li>
-									<li>
-										<span class="icon major style4 fa-sync"></span>
-										<h3>Dynamic Synchronization</h3>
-										<p>Keep your variables and local styles updated automatically as you make changes.</p>
-									</li>
-								</ul>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="#cta" class="button">Try Now</a></li>
-									</ul>
-								</footer>
+								<div class="features-section">
+									<h3>✨ Variable Management</h3>
+									<p>Create and manage your variable collections (colors, spacing, text styles, etc.) for a structured workflow.</p>
+								</div>
+								<div class="features-section">
+									<h3>🎨 Local Styles</h3>
+									<p>Convert your variables into Figma local styles for consistent design across your projects.</p>
+								</div>
+								<div class="features-section">
+									<h3>📤 Export & Import</h3>
+									<p>Export variables to JSON or import existing configurations effortlessly.</p>
+								</div>
+								<div class="features-section">
+									<h3>🔄 Dynamic Synchronization</h3>
+									<p>Keep your variables and local styles updated automatically as you make changes.</p>
+								</div>
 							</section>
 
 						<!-- Pricing -->
@@ -104,12 +97,14 @@
 										<thead>
 											<tr>
 												<th>Plan</th>
+												<th>Monthly</th>
 												<th>Lifetime</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td>Individual</td>
+												<td>$5.00</td>
 												<td>$50.00</td>
 											</tr>
 										</tbody>
@@ -122,11 +117,11 @@
 								<header class="major">
 									<h2>Legal Documents</h2>
 								</header>
-								<ul>
-									<li><a href="terms.html">Terms & Conditions</a></li>
-									<li><a href="privacy.html">Privacy Policy</a></li>
-									<li><a href="refund.html">Refund Policy</a></li>
-								</ul>
+								<p class="legal-links">
+									<a href="terms.html">Terms & Conditions</a> | 
+									<a href="privacy.html">Privacy Policy</a> | 
+									<a href="refund.html">Refund Policy</a>
+								</p>
 							</section>
 
 						<!-- Call to Action -->
