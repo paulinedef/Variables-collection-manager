@@ -1,8 +1,6 @@
 # Variables-collection-manager
 Variable collection manager et generator
 
-# Figma Variable Manager
-
 Streamline your design workflow in Figma with advanced variable management, local style generation, and seamless export/import capabilities.
 
 ---
