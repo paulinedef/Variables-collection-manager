@@ -21,8 +21,7 @@ Streamline your design workflow in Figma with advanced variable management, loca
 ---
 
 ## Pricing
-- **Monthly Plan**: $5.00
-- **Lifetime Plan**: $50.00
+- **Lifetime Plan**: $29.00
 
 ---
 
